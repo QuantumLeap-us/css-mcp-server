@@ -1,4 +1,5 @@
 # Building a CSS Tutor MCP Server
+[![smithery badge](https://smithery.ai/badge/css-tutor)](https://smithery.ai/server/css-tutor)
 
 This repo contains a simple Model Context Protocol (MCP) server built with Node.js and TypeScript. It acts as a "CSS Tutor," providing personalized updates about CSS features to a connected AI client.
 
@@ -14,6 +15,14 @@ This server demonstrates key MCP concepts: defining **Resources**, **Tools**, an
 ## Quick Start
 
 Follow these steps to get the server running quickly:
+
+### Installing via Smithery
+
+To install CSS Tutor for Claude Desktop automatically via [Smithery](https://smithery.ai/server/css-tutor):
+
+```bash
+npx -y @smithery/cli install css-tutor --client claude
+```
 
 1.  **Clone the Repository:**
     ```bash
