@@ -1,5 +1,7 @@
 # Building a CSS Tutor MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@QuantumLeap-us/css-mcp-server)](https://smithery.ai/server/@QuantumLeap-us/css-mcp-server)
+
 This repo contains a simple Model Context Protocol (MCP) server built with Node.js and TypeScript. It acts as a "CSS Tutor," providing personalized updates about CSS features to a connected AI client.
 
 This server demonstrates key MCP concepts: defining **Resources**, **Tools**, and **Prompts**. The goal of this demonstration is to help you move on from here and build much larger and more interesting agentic capabilities.
@@ -14,6 +16,16 @@ This server demonstrates key MCP concepts: defining **Resources**, **Tools**, an
 ## Quick Start
 
 Follow these steps to get the server running quickly:
+
+### Installing via Smithery
+
+To install css-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@QuantumLeap-us/css-mcp-server):
+
+```bash
+npx -y @smithery/cli install @QuantumLeap-us/css-mcp-server --client claude
+```
+
+### Installing Manually
 
 1.  **Clone the Repository:**
     ```bash
